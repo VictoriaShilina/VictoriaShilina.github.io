@@ -1,0 +1,168 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    margin: auto;
+    width: 1252px;
+    position: relative;
+    top: 250px;
+    z-index: 1;
+}
+
+.header {
+    background-color: #cfe5ef;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    z-index: 2;
+
+}
+
+.header-wrap {
+    width: 1252px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-wrap__logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-wrap__topmenu {
+    width: 50%;
+    display: inline-block;
+}
+
+.header-wrap__topmenu>li {
+    display: inline-block;
+    position: relative;
+
+}
+
+.submenu {
+    display: none;
+    background: #ffffff;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li:hover .submenu {
+    display: block;
+    background-color: #ffffff;
+}
+
+ul li:hover {
+    background-color: #ffffff;
+}
+
+.header-wrap__topmenu a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 30px;
+}
+
+.header-wrap__topmenu a:hover {
+    color: #006cc9;
+}
+
+.header-wrap__button {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 235px;
+}
+
+.header-wrap__button button {
+    background-color: #ffffff;
+    padding: 15px 25px;
+}
+
+button:focus {
+    outline: none;
+}
+
+.grid img {
+    float: left;
+}
+
+.grid {
+    margin-bottom: 75px;
+}
+
+.grid::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.title {
+    margin: 0;
+}
+
+.line {
+    width: 201px;
+    height: 6px;
+    background-color: #c3c3c3;
+    float: left;
+    margin-bottom: 29px;
+}
+
+.indented {
+    margin-bottom: 75px;
+}
+
+.indented::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.indented img {
+    float: left;
+    margin-bottom: 20px;
+}
+
+.indented img:nth-child(odd) {
+    margin-right: 19px;
+}
+
+.feedback {
+    margin-bottom: 104px;
+}
+
+.feedback-line {
+    height: 1px;
+}
+
+
+.gallery-title {
+    text-align: center;
+    margin: 0;
+}
+
+.gallery-line {
+    width: 201px;
+    height: 6px;
+    background-color: #c3c3c3;
+    margin-bottom: 29px;
+}
+
+.gallery img {
+
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+img:hover {
+    outline: 1px solid blue;
+}
